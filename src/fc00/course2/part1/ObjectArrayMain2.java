@@ -6,9 +6,9 @@ import fc00.model2.ObjectArray;
 import fc00.model2.Person;
 import fc00.part2.IfbasicTest;
 
-public class ObjectArrayMain {
+public class ObjectArrayMain2 {
 	public static void main(String[] args) {
-		ObjectArray list = new ObjectArray(10);
+		ObjectArray list = new ObjectArray();
 		
 		list.add(new A());
 		list.add(new B());
@@ -22,8 +22,6 @@ public class ObjectArrayMain {
 		a.display();
 		b.display();
 		c.display();
-		
-		System.out.println();
 		
 		System.out.println();
 		

@@ -2,20 +2,14 @@ package fc00.model2;
 
 import java.util.Arrays;
 
-public class ObjectArray {
+public class ObjectArray2 {
 	// 생성 동작, 인덱스보고 값 가져오기, add
 	private int index;
 	private int size;
 	private Object[] elements; // 범용성 높음, up casting 때문
-	public static final int MAX_LENGTH = 5;
 	private int leng;
 	
-	public ObjectArray() {
-//		elements = new Object[MAX_LENGTH];
-		this(5); // 자신이 속한 클래스의 다른 생성자 호출 즉 ObjectArray(int leng) 호출함 
-	}
-	
-	public ObjectArray(int leng) {
+	public ObjectArray2() {
 		elements = new Object[leng];
 	}
 	
