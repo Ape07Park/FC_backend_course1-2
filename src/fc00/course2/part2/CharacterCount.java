@@ -15,7 +15,7 @@ public class CharacterCount {
 		
 		for(char c : strArray) {
 			if(charCountmap.containsKey(c)) { // characterCountmap에 키로 c가 있다면
-				charCountmap.put(c, charCountmap.get(c) + 1); // CharacterCountmap의 키 c에 value에다가 + 1하기
+				charCountmap.put(c, charCountmap.get(c) + 1); // CharacterCountmap의 키 c에 해당하는 value에다가 + 1하기
 			}else {
 				charCountmap.put(c, 1); // 그렇지 않으면 characterCountmap에 key c, value에 1로 해서 추가 
 			}
